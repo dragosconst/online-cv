@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -13,18 +13,17 @@ sidebar:
 
     # Sidebar links
     email: tantarudragos@gmail.com
-           dragos.tantaru@s.unibuc.ro
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: dragos.tantaru@s.unibuc.ro
+    phone: +40 737 957 159
+    timezone:  Eastern European Summer Time
+    citizenship: Romanian
+    linkedin: dragos-tantaru
+    xing: 
+    github: dragosconst
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,22 +32,16 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Romanian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
+        - item: Cinema
           link:
 
         - item: Cooking
@@ -57,29 +50,20 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have worked as an intern in both a Software Development Engineering role and a Machine Learning Reasearcher one. In my Machine Learning internship, I had the opportunity to work on the complete process of a scientific paper, which involved literature review, analysis, experiments, and finally writing the paper in a standard format. I collaborated closely with two Senior Machine Learning Researchers, who provided supervision and guidance.<br/> During my Software Development Engineering internship, I've gained valuable experience regarding both backend and frontend development while working on the web UI for an internal security solution. I have also contributed to the architecture of our solution, as the project was a very new initiative within the company. <br/>In addition, I have taught two seminars for the Object-Oriented Programming course at my faculty, with excellent feedback from both the professor and students.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Artificial Intelligence
+        university: University of Bucharest, Faculty of Mathematics and Computer Science
+        time: 2022 - 2024 (ongoing)
+        gpa: 
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          dadadasdasdasdasdasdas
+      - degree: BSc in Computer Science
+        university: University of Bucharest, Faculty of Mathematics and Computer Science
+        time: 2019 - 2022
+        gpa: 9.65
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -91,132 +75,100 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Machine Learning Research Intern
+        time: oct 2022 - apr 2023
+        company: Bitdefender, Bucharest
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I worked on a project regarding detection of artificially generated images, more specifically on the detection and localization of manipulated regions of images altered using Denoising Diffusion Probabilistic Models (DDPMs). <br/>
+          <br/>My work entailed conducting a substantial literature review about Deepfake detection, of running various experiments regarding generating training sets, and training and testing various different architectures for the detection task. Additionally, I've contributed to our approach and analysis regarding image frequency information, as this was a particular area of interest for me during the project. <br/><br/>
+          Towards the end of the internship, we've compiled our preliminary results in a scientific paper format. While the results weren't enough to warrant publication, my team is currently still pursuing this direction of research, and I will add the (hopefully) published paper to my resume once it's finished. I am happy to provide the document containing the preliminary results, in case it is of interest.
+      - role: Software Development Engineer Intern
+        time: jul 2022 - oct 2022
+        company: Amazon, Iasi
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          During my internship, I worked alongised a team of interns on a novel internal security solution, under the supervision of Senior colleagues. The format of the internship was also a new initiative inside the company, under which interns had to work in teams and manage their projects together, instead of being completely supervised and managed by their Senior colleagues. The final results were pushed in production, after being carefully reviewed. <br/><br/>
+          I've worked on both backend and frontend development of our web UI. Regarding the backend, I've written numerous API operations, primarily CRUD, and I had to ensure the code was appropriately covered by unit and integration tests. We also had to incorporate various internal security measures. Regarding the frontend, it was written using Typescript & ReactJS 18. I was unfamilliar with both of them, so I had to more or less learn both of them from scratch. Nonetheless, I've managed to deliver my tasks to a high standard. <br/><br/>
+          I've also contributed to the solution's architecture, more specifically in designing our database entities and utilizing other internal services. Since Amazon uses DynamoDB, which is a NoSQL database, correctly defining our entities was crucial to ensure low latency.
+      - role: Teaching Assistant
+        time: oct 2022 - feb 2023
+        company: University of Bucharest, Faculty of Mathematics and Computer Science
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I held two seminars for the Object-Oriented Programming course in our faculty during the first semester. This is part of an initiative inside our faculty, under which high-performing Master's students are selected to (optionally) teach various seminars and laboratories in our faculty. <br/><br/>
+          My responsibilities were to prepare the materials for the seminars, grade the students, and answer any questions the students had. In addition, towards the second half of the semester I have also prepared exercices similar to the exam format, and I've also contributted to the final exam with some exercices.<br/><br/>
+          The feedback from both the teacher that held the course and the students I've taught was excellent.
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      A list of some interesting projects I've had during my Bachelor's:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Ninja-Jump
+        link: "https://github.com/dragosconst/Ninja-Jump"
+        tagline: "A procedurally generated platformer, played on an 8x8 LED Matrix, using an Arduino Uno board."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: alloc
+        link: "https://github.com/dragosconst/alloc"
+        tagline: "An implementation of usual memory allocation functions."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Anomaly Detection in text
+        tagline: "A team project in which we used a BERT model to train a self-supervised model for text Anomaly Detection."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# oss:
+#     title: OSS Contributions
+    # intro: >
+      # You can list your open source software contributions in this
+      # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # contributions:
+      # - title: Tempo
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: Atom
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      # - title: Delta
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Pytorch
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Computer Vision
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C/C++
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Natural Language Processing
+        level: 75%
+      - name: Typescript
+        level: 65%
+      - name: Java
+        level: 65%
