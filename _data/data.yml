@@ -50,7 +50,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I have worked as an intern in both a Software Development Engineering role and a Machine Learning Reasearcher one. In my Machine Learning internship, I had the opportunity to work on the complete process of a scientific paper, which involved literature review, analysis, experiments, and finally writing the paper in a standard format. I collaborated closely with two Senior Machine Learning Researchers, who provided supervision and guidance.<br/> During my Software Development Engineering internship, I've gained valuable experience regarding both backend and frontend development while working on the web UI for an internal security solution. I have also contributed to the architecture of our solution, as the project was a very new initiative within the company. <br/>In addition, I have taught two seminars for the Object-Oriented Programming course at my faculty, with excellent feedback from both the professor and students.
+      I'm a MSc student with a strong passion for Machine Learning and especially Deep Learning. I'm currently very interested in learning about theoretical approaches to formalizing DL, however I find practical applications of DL to be just as exciting to research. I'm currently interested in roles pertaining to Machine Learning research work, but I'm also open to ML engineering positions.<br/>
+      I have worked as an intern in both a Software Development Engineering role and a Machine Learning Researcher one. In my Machine Learning internship, I had the opportunity to work on the complete process of a scientific paper, which involved literature review, analysis, experiments, and finally writing the paper in a standard format. I collaborated closely with two Senior Machine Learning Researchers, who provided supervision and guidance.<br/> During my Software Development Engineering internship, I've gained valuable experience regarding both backend and frontend development while working on the web UI for an internal security solution. I have also contributed to the architecture of our solution, as the project was a very new initiative within the company. <br/>In addition, I have taught two seminars for the Object-Oriented Programming course at my faculty, with excellent feedback from both the professor and students.
 education:
     title: Education
     info:
@@ -79,22 +80,22 @@ experiences:
         time: oct 2022 - apr 2023
         company: Bitdefender, Bucharest
         details: |
-          I worked on a project regarding detection of artificially generated images, more specifically on the detection and localization of manipulated regions of images altered using Denoising Diffusion Probabilistic Models (DDPMs). <br/>
-          <br/>My work entailed conducting a substantial literature review about Deepfake detection, of running various experiments regarding generating training sets, and training and testing various different architectures for the detection task. Additionally, I've contributed to our approach and analysis regarding image frequency information, as this was a particular area of interest for me during the project. <br/><br/>
+          I worked on a project regarding the detection of artificially generated images, more specifically on the detection and localization of manipulated regions of images altered using Denoising Diffusion Probabilistic Models (DDPMs). <br/>
+          <br/>My work entailed conducting a substantial literature review about Deepfake detection, running various experiments regarding generating training sets, and training and testing different architectures for the detection task. Additionally, I've contributed to our approach and analysis regarding image frequency information, as this was a particular area of interest for me during the project. <br/><br/>
           Towards the end of the internship, we've compiled our preliminary results in a scientific paper format. While the results weren't enough to warrant publication, my team is currently still pursuing this direction of research, and I will add the (hopefully) published paper to my resume once it's finished. I am happy to provide the document containing the preliminary results, in case it is of interest.
       - role: Software Development Engineer Intern
         time: jul 2022 - oct 2022
         company: Amazon, Iasi
         details: |
-          During my internship, I worked alongised a team of interns on a novel internal security solution, under the supervision of Senior colleagues. The format of the internship was also a new initiative inside the company, under which interns had to work in teams and manage their projects together, instead of being completely supervised and managed by their Senior colleagues. The final results were pushed in production, after being carefully reviewed. <br/><br/>
-          I've worked on both backend and frontend development of our web UI. Regarding the backend, I've written numerous API operations, primarily CRUD, and I had to ensure the code was appropriately covered by unit and integration tests. We also had to incorporate various internal security measures. Regarding the frontend, it was written using Typescript & ReactJS 18. I was unfamilliar with both of them, so I had to more or less learn both of them from scratch. Nonetheless, I've managed to deliver my tasks to a high standard. <br/><br/>
+          During my internship, I worked alongside a team of interns on a novel internal security solution, under the supervision of Senior colleagues. The format of the internship was also a new initiative inside the company, under which interns had to work in teams and manage their projects together, instead of being completely supervised and managed by their Senior colleagues. The final results were pushed to production, after being carefully reviewed. <br/><br/>
+          I've worked on both backend and frontend development of our web UI. Regarding the backend, I've written numerous API operations, primarily CRUD, and I had to ensure the code was appropriately covered by unit and integration tests. We also had to incorporate various internal security measures. Regarding the frontend, it was written using Typescript & ReactJS 18. I was unfamiliar with both of them, so I had to more or less learn both of them from scratch. Nonetheless, I've managed to deliver my tasks to a high standard. <br/><br/>
           I've also contributed to the solution's architecture, more specifically in designing our database entities and utilizing other internal services. Since Amazon uses DynamoDB, which is a NoSQL database, correctly defining our entities was crucial to ensure low latency.
       - role: Teaching Assistant
         time: oct 2022 - feb 2023
         company: University of Bucharest, Faculty of Mathematics and Computer Science
         details: |
           I held two seminars for the Object-Oriented Programming course in our faculty during the first semester. This is part of an initiative inside our faculty, under which high-performing Master's students are selected to (optionally) teach various seminars and laboratories in our faculty. <br/><br/>
-          My responsibilities were to prepare the materials for the seminars, grade the students, and answer any questions the students had. In addition, towards the second half of the semester I have also prepared exercices similar to the exam format, and I've also contributted to the final exam with some exercices.<br/><br/>
+          My responsibilities were to prepare the materials for the seminars, grade the students, and answer any questions the students had. In addition, towards the second half of the semester I have also prepared exercises similar to the exam format for my seminar, and I've also contributed to the final exam with some exercises.<br/><br/>
           The feedback from both the teacher that held the course and the students I've taught was excellent.
 projects:
     title: Projects
@@ -103,14 +104,17 @@ projects:
     assignments:
       - title: Ninja-Jump
         link: "https://github.com/dragosconst/Ninja-Jump"
-        tagline: "A procedurally generated platformer, played on an 8x8 LED Matrix, using an Arduino Uno board."
+        tagline: "A procedurally generated platformer, played on an 8x8 LED Matrix, using an Arduino Uno board. The game includes high-scores, different music themes, various randomly generated structures, all tightly fit into the limited 2kB memory of the Arduino Uno board."
 
       - title: alloc
         link: "https://github.com/dragosconst/alloc"
-        tagline: "An implementation of usual memory allocation functions."
+        tagline: "An implementation of usual memory allocation functions. Includes a bin system similar to the ones used in widely used implementations."
 
       - title: Anomaly Detection in text
         tagline: "A team project in which we used a BERT model to train a self-supervised model for text Anomaly Detection."
+      - title: Nitro NLP Hackathon
+        link: "https://www.kaggle.com/competitions/nitro-lang-processing-1/leaderboard"
+        tagline: "I took part in the 2022 edition of the Nitro NLP hackathon. The task was NER tagging for the Romanian language. My team, which consisted of one colleague from my faculty and me, won first place. Our placement earned us admission to attend the 2022 EEML summer school."
 
 # oss:
 #     title: OSS Contributions
@@ -164,11 +168,11 @@ skills:
         level: 85%
 
       - name: C/C++
-        level: 80%
+        level: 82%
 
       - name: Natural Language Processing
-        level: 75%
+        level: 78%
       - name: Typescript
-        level: 65%
+        level: 70%
       - name: Java
-        level: 65%
+        level: 70%
