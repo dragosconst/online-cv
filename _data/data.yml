@@ -82,7 +82,7 @@ experiences:
         details: |
           I worked on a project regarding the detection of artificially generated images, more specifically on the detection and localization of manipulated regions of images altered using Denoising Diffusion Probabilistic Models (DDPMs). <br/>
           <br/>My work entailed conducting a substantial literature review about Deepfake detection, running various experiments regarding generating training sets, and training and testing different architectures for the detection task. Additionally, I've contributed to our approach and analysis regarding image frequency information, as this was a particular area of interest for me during the project. <br/><br/>
-          Towards the end of the internship, we've compiled our preliminary results in a scientific paper format. While the results weren't enough to warrant publication, my team is currently still pursuing this direction of research, and I will add the (hopefully) published paper to my resume once it's finished. I am happy to provide the document containing the preliminary results, in case it is of interest.
+          Towards the end of the internship, we've compiled our preliminary results in a scientific paper format. While the results weren't yet enough to warrant publication, my team is currently still pursuing this direction of research, and I will add the (hopefully) published paper to my resume once it's finished. I am happy to provide the document containing the preliminary results, in case it is of interest.
       - role: Software Development Engineer Intern
         time: jul 2022 - oct 2022
         company: Amazon, Iasi
